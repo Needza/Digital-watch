@@ -1,0 +1,23 @@
+body{
+    background-image: url(korea1.png);
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6em;
+    font-weight: bold;
+    color: hsl(2, 82%, 47%);
+    text-align: center;
+    backdrop-filter: blur(3px);
+    width: 100%;
+}
